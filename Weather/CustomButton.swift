@@ -19,7 +19,7 @@ struct CustomButton: View {
         } label: {
             Text(text)
                 .frame(width: 280, height: 50)
-                .background(backgroundColor)
+                .background(backgroundColor.gradient)
                 .foregroundStyle(Color(textColor))
                 .font(.system(size: 20, weight: .bold, design: .default))
                 .cornerRadius(8)
